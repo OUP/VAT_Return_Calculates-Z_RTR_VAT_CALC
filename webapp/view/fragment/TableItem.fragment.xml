@@ -1,0 +1,32 @@
+<core:FragmentDefinition 
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+
+    <ColumnListItem vAlign="Middle">
+        <cells>
+            <Text
+                text="{CalendarMonth}"/>
+            <Text
+                text="{CalendarYear}" />
+            <Text
+                text="{BoxNum}" />
+            <Text
+                text="{CompanyCode}" />
+            <Text
+                text="{SourceName}" />
+            <Text
+                text="{TaxCode}" />
+            <Text
+                text="{VatPercent}" />
+            <Text
+                text="{Amount}" />    
+            <Text
+                text="{Waers}" />
+            <Text
+                text="{Erdat}" />
+            <Text
+                text="{Ernam}" />                                    
+        </cells>
+    </ColumnListItem>
+
+</core:FragmentDefinition>
